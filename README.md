@@ -1,4 +1,5 @@
-# Angular-Component-Interaction
+# Angular Component Interaction
+Here is a exmaple to understand how we can pass data to one component from another component.
 
 ```
 > npm install -g @angular/cli    #install angular-cli. Skip if already installed
