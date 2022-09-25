@@ -1,0 +1,12 @@
+<app-child (childEvent)="message = $event" [parentData]="name"></app-child>
+
+<h1>{{ message }}</h1>
+
+<hr />
+
+<h1>Service Example:</h1>
+<button (click)="getemployee()">Employee Details</button>
+
+<div *ngFor="let emp of employee">
+  <p>{{ emp.firstName }}</p>
+</div>
