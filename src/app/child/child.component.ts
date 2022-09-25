@@ -1,6 +1,4 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { EmployeeService } from '../employee.service';
-
 @Component({
   selector: 'app-child',
   templateUrl: './child.component.html',
