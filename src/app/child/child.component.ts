@@ -11,19 +11,6 @@ export class ChildComponent implements OnInit {
   @Input() public parentData: any;
   @Output() public childEvent = new EventEmitter();
 
-  employee:any;
-
-  constructor(private _employe:EmployeeService) { }
-
-  ngOnInit(): void {
-    this.employee =this._employe.getEmployee();
-  }
-
-  sendDataToParent(){
-    this.childEvent.emit('hello from child');
-  }
-
-  // service
-
+  constructor() { }
 
 }
